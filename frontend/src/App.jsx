@@ -128,7 +128,7 @@ function App() {
               boxShadow: '0 1px 2px rgba(0,0,0,0.04)',
             }}
           >
-            <strong style={{ color: '#2c2c2c' }}>Bloombot:</strong>{' '}
+            <strong style={{ color: '#2c2c2c' }}>BloomBot:</strong>{' '}
             <span style={{ whiteSpace: 'pre-wrap', color: '#3d3d3d' }}>
               {response}
             </span>
@@ -147,7 +147,7 @@ function App() {
           color: '#5a5a5a',
         }}
       >
-        Built by Shalaka Bapat. Test out BloomBot by asking a question about your order.{' '}
+        Built by Shalaka Bapat. Test out BloomBot by asking a question about your order. Note this is a single-turn demo.{' '}
         <a
           href="https://github.com/sbapat19/cx_agent"
           target="_blank"
