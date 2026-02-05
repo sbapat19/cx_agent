@@ -46,8 +46,7 @@ REFUND: The customer wants to return a product that is unopened and unused, with
 STORE_CREDIT: The product was opened or used and the customer says it "didn't work," "didn't like it," has taste issues or side effects, without claiming a defect on arrival.
 
 NEEDS_CLARIFICATION: One missing fact would change the outcome (most commonly: opened vs unopened, or defect on arrival vs dissatisfaction after use). Ask exactly one targeted clarifying question that most reduces uncertainty. Do not ask multiple questions. For ambiguous refund or return requests: If the message mentions “refund” or “return” (or similar phrasing) n
-and it does NOT clearly state whether the product was opened or used:
-→ Route to NEEDS_CLARIFICATION
+and it does NOT clearly state whether the product was opened or used: Route to NEEDS_CLARIFICATION
 
 In this case, ask exactly one clarifying question:
 “Have you opened or used the product yet? Either way, I’m happy to help.”
