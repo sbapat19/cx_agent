@@ -64,7 +64,7 @@ function App() {
             color: '#5a5a5a',
           }}
         >
-          Chat to BloomBot
+          Chat to BloomBot: ask questions about refunds, returns or what to do if you didn't like your order.
         </p>
         <form
           onSubmit={handleSubmit}
@@ -142,11 +142,11 @@ function App() {
           marginTop: '2rem',
           paddingTop: '1rem',
           borderTop: '1px solid #d4d1cc',
-          textAlign: 'right',
           fontSize: '0.875rem',
           color: '#5a5a5a',
         }}
       >
+<<<<<<< HEAD
         Built by Shalaka Bapat. Test out BloomBot by asking a question about your order. Note this is a single-turn demo.{' '}
         <a
           href="https://github.com/sbapat19/cx_agent"
@@ -156,6 +156,26 @@ function App() {
         >
           View source code on GitHub
         </a>
+=======
+        <p style={{ margin: '0 0 0.75rem 0' }}>
+          Built by Shalaka Bapat.{' '}
+          <a
+            href="https://github.com/sbapat19/cx_agent"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: '#4a4a4a', textDecoration: 'underline' }}
+          >
+            View source code on GitHub
+          </a>
+          .
+        </p>
+        <p style={{ margin: '0 0 0.75rem 0' }}>
+          BloomBot is an AI-agent powered chatbot for a hypothetical supplements brand, powered by two agents. The first interprets the customer's intent, then branches to a specialist agent for the response.
+        </p>
+        <p style={{ margin: 0 }}>
+          The system was built with React on the frontend and Python (FastAPI + LangGraph) on the backend. I improved it iteratively by using an eval set to identify and fix common routing errors, especially on ambiguous refund requests. Enjoy!
+        </p>
+>>>>>>> 3e2b194 (Improve homepage description.)
       </div>
     </div>
   )
