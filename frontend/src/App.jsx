@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
@@ -177,6 +178,7 @@ function App() {
         </p>
 >>>>>>> 3e2b194 (Improve homepage description.)
       </div>
+      <Analytics />
     </div>
   )
 }
