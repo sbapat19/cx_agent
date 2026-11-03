@@ -4,3 +4,11 @@ dist
 .env.local
 *.log
 .DS_Store
+
+# local secret backups
+.env.tmp
+.env.bak*
+
+*.db
+__pycache__/
+.pytest_cache/

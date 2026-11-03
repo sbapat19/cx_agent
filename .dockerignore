@@ -1,0 +1,9 @@
+node_modules
+frontend/dist
+.env
+.env.*
+*.db
+__pycache__
+.pytest_cache
+eval/results
+legacy_bloom

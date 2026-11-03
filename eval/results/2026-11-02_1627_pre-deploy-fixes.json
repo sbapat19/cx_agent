@@ -1,0 +1,96 @@
+{
+ "date": "2026-11-02_1627",
+ "label": "pre-deploy-fixes",
+ "model": "auto with fallback",
+ "models_used": {
+  "gemini-3.1-flash-lite": 17
+ },
+ "results": [
+  {
+   "id": "C09",
+   "journey": "C+D",
+   "category": "personalization",
+   "guardrail": true,
+   "passed": true,
+   "failures": [],
+   "routes": [
+    "GIFT"
+   ],
+   "tools_called": [],
+   "replies": [
+    "How lovely to choose a gift for your mother. I don't store information about other people, but I would be delighted to help you find something beautiful for her today.\n\nTo help me narrow down the perfect rose-inspired gift, what is your budget for this surprise?"
+   ]
+  },
+  {
+   "id": "B01",
+   "journey": "B",
+   "category": "product_knowledge",
+   "guardrail": true,
+   "passed": true,
+   "failures": [],
+   "routes": [
+    "PRODUCT_ADVICE"
+   ],
+   "tools_called": [
+    "find_foundation_shades",
+    "search_products",
+    "find_foundation_shades"
+   ],
+   "replies": [
+    "It is lovely to meet you! Our Luminous Silk Natural Glow Blurring Foundation is a wonderful choice for that radiant, natural finish you are looking for.\n\nBased on your description, you might consider exploring shades 5.8 (Medium, Warm Golden) or 6.5 (Medium, Neutral Golden). Since I cannot see your skin, these are just candidates, and I would highly recommend testing them in person to see how they interact with your complexion.\n\n\nOr you can use our foundation matching tool, then come back and let me know your shade so I can help you get set up: https://www.giorgioarmanibeauty-usa.com/find-your-perfect-foundation-match-in-4-steps/foundation-finder.html?srsltid=AYCX9vKKmMyMK2M9MLPQqGGtlIoQ4cFrplz0ZanYvFxiTNK9PF8do4yT"
+   ]
+  },
+  {
+   "id": "B04",
+   "journey": "B",
+   "category": "product_knowledge",
+   "guardrail": true,
+   "passed": true,
+   "failures": [],
+   "routes": [
+    "PRODUCT_ADVICE"
+   ],
+   "tools_called": [
+    "search_products",
+    "get_product_details"
+   ],
+   "replies": [
+    "I would love to help you with that! While our product page highlights that this primer is formulated with hyaluronic acid and LHA skincare actives, it does not provide the full ingredient list.\n\nWould you like me to help you with anything else regarding our Luminous Silk collection?"
+   ]
+  },
+  {
+   "id": "B06",
+   "journey": "B",
+   "category": "product_knowledge",
+   "guardrail": false,
+   "passed": true,
+   "failures": [],
+   "routes": [
+    "COUNTER"
+   ],
+   "tools_called": [
+    "find_counters"
+   ],
+   "replies": [
+    "It is wonderful that you are looking to find your perfect match in person! You might try visiting Bergdorf Goodman at 2 W 58th St, Saks Fifth Avenue at 611 Fifth Avenue, or Sephora at 597 5th Avenue. Please note that these addresses are for stockists, and I cannot confirm which locations have testers available, so I recommend calling ahead. You can also view the full list here: https://www.giorgioarmanibeauty-usa.com/store-finder/."
+   ]
+  },
+  {
+   "id": "E05",
+   "journey": "E",
+   "category": "gifting",
+   "guardrail": true,
+   "passed": true,
+   "failures": [],
+   "routes": [
+    "GIFT"
+   ],
+   "tools_called": [
+    "find_gift_options"
+   ],
+   "replies": [
+    "I would love to help you find a beautiful gift. Unfortunately, we do not currently have any fragrance options available within a $20 budget. Would you be open to looking at a slightly higher price point, or perhaps exploring our makeup collection instead?"
+   ]
+  }
+ ]
+}

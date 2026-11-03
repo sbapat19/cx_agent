@@ -1,0 +1,20 @@
+{"id":"E01","text":"I want a refund haven't opened.","expected":"REFUND"}
+{"id":"E02","text":"Package came damaged and the jar leaked everywhere.","expected":"REPLACEMENT"}
+{"id":"E03","text":"You sent the wrong item. I ordered NightWish.","expected":"REPLACEMENT"}
+{"id":"E04","text":"I opened it and it made me sick.","expected":"STORE_CREDIT"}
+{"id":"E05","text":"How to return","expected":"NEEDS_CLARIFICATION"}
+{"id":"E06","text":"Refund please","expected":"NEEDS_CLARIFICATION"}
+{"id":"E07","text":"I never received my order.","expected":"REPLACEMENT"}
+{"id":"E08","text":"I used it for a week and it didn't work.","expected":"STORE_CREDIT"}
+{"id":"E09","text":"Unsubscribe me from emails.","expected":"OUT_OF_SCOPE"}
+{"id":"E10","text":"Where's my tracking?","expected":"REPLACEMENT"}
+{"id":"E11","text":"I changed my mind - it's still sealed.","expected":"REFUND"}
+{"id":"E12","text":"The box was empty when it arrived.","expected":"REPLACEMENT"}
+{"id":"E13","text":"I'm allergic to this. I already opened it.","expected":"STORE_CREDIT"}
+{"id":"E14","text":"I want a refund but I already tried one capsule.","expected":"STORE_CREDIT"}
+{"id":"E15","text":"Your website is broken.","expected":"OUT_OF_SCOPE"}
+{"id":"E16","text":"My order arrived but the lid was cracked.","expected":"REPLACEMENT"}
+{"id":"E17","text":"Can I get store credit? I didn't like the taste.","expected":"STORE_CREDIT"}
+{"id":"E18","text":"I need help with my order.","expected":"NEEDS_CLARIFICATION"}
+{"id":"E19","text":"I haven't opened it. Return address?","expected":"REFUND"}
+{"id":"E20","text":"lol what is this bot","expected":"OUT_OF_SCOPE"}

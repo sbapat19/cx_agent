@@ -1,0 +1,24 @@
+
+=== Router Eval Results ===
+API_URL: http://localhost:8000/chat
+Total: 20
+Correct: 16
+Accuracy: 80.00%
+
+=== Per-class accuracy ===
+NEEDS_CLARIFICATION 2/3 (66.67%)
+OUT_OF_SCOPE       3/3 (100.00%)
+REFUND             2/3 (66.67%)
+REPLACEMENT        4/6 (66.67%)
+STORE_CREDIT       5/5 (100.00%)
+
+=== Confusion cases (top) ===
+REPLACEMENT -> OUT_OF_SCOPE: 2
+NEEDS_CLARIFICATION -> OUT_OF_SCOPE: 1
+REFUND -> NEEDS_CLARIFICATION: 1
+
+=== Example misroutes (up to 8) ===
+- E07 expected=REPLACEMENT predicted=OUT_OF_SCOPE text=I never received my order.
+- E10 expected=REPLACEMENT predicted=OUT_OF_SCOPE text=Where's my tracking?
+- E18 expected=NEEDS_CLARIFICATION predicted=OUT_OF_SCOPE text=I need help with my order.
+- E19 expected=REFUND predicted=NEEDS_CLARIFICATION text=I haven't opened it. Return address?
