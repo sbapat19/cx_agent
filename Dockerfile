@@ -7,6 +7,7 @@ COPY frontend/ ./
 ARG VITE_BRAND_TITLE="Beauty Assistant"
 ENV VITE_BRAND_TITLE="$VITE_BRAND_TITLE"
 RUN npm run build
+
 FROM python:3.12-slim
 WORKDIR /app
 RUN pip install --no-cache-dir fastapi "uvicorn[standard]" python-dotenv langgraph langchain-core langchain-google-genai sqlalchemy certifi "psycopg[binary]"
