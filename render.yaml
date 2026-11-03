@@ -1,0 +1,12 @@
+# One-click setup on Render: New > Blueprint > pick this repo > paste GOOGLE_API_KEY > Apply.
+services:
+  - type: web
+    name: beauty-assistant
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: APP_ENV
+        value: production
