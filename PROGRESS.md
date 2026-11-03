@@ -18,7 +18,7 @@ Last updated: 2026-11-02.
 - Not yet re-verified live after the last fixes: gift flow, returning customer, other-customer isolation, counter finder (blocked by the quota).
 
 ## Eval history (measured, `gemini-3.1-flash-lite`)
-baseline 22/37 guardrail, 16/18 other -> after-fixes 35/37, 17/18 -> run3 36/37, 18/18 -> final-run1 37/37, 18/18 -> final-run2 37/37, 18/18 (repeat, same code). After the persona change (suite now 56): 34/37 -> 35/38 -> 36/38 -> friendly-run4 38/38, 18/18. Details and every check change: `docs/eval_changes.md`.
+baseline 22/37 guardrail, 16/18 other -> after-fixes 35/37, 17/18 -> run3 36/37, 18/18 -> final-run1 37/37, 18/18 -> final-run2 37/37, 18/18 (repeat, same code). After the persona change (suite now 56): 34/37 -> 35/38 -> 36/38 -> friendly-run4 38/38, 18/18. Final pre-deploy full run (57 scenarios): 34/38 guardrail, 18/19 other; fixes verified on the 5 affected scenarios only (5/5), no full re-run since. Details and every check change: `docs/eval_changes.md`.
 
 ## Not done / next
 1. Deploy (needs approval and accounts in `docs/deploy_requirements.md`; set `ENABLE_DEBUG=0`; run the schema on Postgres once; consider pinning `GEMINI_MODEL`).

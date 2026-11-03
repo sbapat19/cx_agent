@@ -25,7 +25,8 @@ An AI advisor for a luxury beauty brand's direct website: order problems, founda
 | `2026-11-02_1415_friendly-persona` | 34/37 (92%) | 18/18 (100%) | after the friendlier persona + finder link: model invented a finder URL (fixed in code); 2 phrasing-only failures |
 | `2026-11-02_1422_friendly-run2` | 35/38 (92%) | 18/18 (100%) | suite now 56 scenarios; 1 real quality issue (B09), 2 phrasing |
 | `2026-11-02_1430_friendly-run3` | 36/38 (95%) | 18/18 (100%) | B09 was being routed to a human handoff |
-| `2026-11-02_1438_friendly-run4` | 38/38 (100%) | 18/18 (100%) | current code, 56 scenarios (38 guardrail); one run, so not a guarantee |
+| `2026-11-02_1438_friendly-run4` | 38/38 (100%) | 18/18 (100%) | 56 scenarios; one run, so not a guarantee |
+| `2026-11-02_pre-deploy` | 34/38 (89%) | 18/19 (95%) | 57 scenarios, after the later tone, flow and brevity changes: 3 phrasing-only failures, 2 real regressions (counter list dropped; shade lookup skipped). Fixed; the 5 affected scenarios then passed 5/5 in a targeted re-run (`pre-deploy-fixes`). A full re-run after those fixes has NOT been done, so there is no clean full-suite number for the final code. |
 
 Every change between runs, including which checks were corrected because they marked right answers wrong, is in `docs/eval_changes.md`. The model is not fully deterministic, so a single run can differ from the next; see the later runs in `eval/results/` for stability. Re-run before relying on a number.
 
